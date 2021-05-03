@@ -27,3 +27,9 @@ console.log(`${country} is more populated than the average: ${population > avgPo
 
 const description = `${country} is in ${continent}, and its ${population} people speak ${language}`
 console.log(description)
+
+if (population > avgPopulation) {
+    console.log(`${country}'s population is above average`)
+} else {
+    console.log(`${country}'s population is ${avgPopulation - population} below average`)
+}
