@@ -1,3 +1,5 @@
+console.log("script.js")
+
 let js = "Test";
 if (js === "Test")
     alert(js);

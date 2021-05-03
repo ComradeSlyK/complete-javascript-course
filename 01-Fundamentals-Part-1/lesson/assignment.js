@@ -1,3 +1,5 @@
+console.log("assignment.js")
+
 const country = 'Italy';
 const continent = 'Europe';
 let population = 70 * (10 ** 6);  // This might change in near future
