@@ -1,15 +1,16 @@
 console.log("challenge1.js")
 
-// Data 1
-let markHeight = 1.69;
-let markMass = 78;
-let markBMI = markMass / (markHeight ** 2);
-let johnHeight = 1.95;
-let johnMass = 92;
-let johnBMI = johnMass / (johnHeight ** 2);
-console.log(markBMI, johnBMI)
+var markHigherBMI;
 
-let markHigherBMI = (markBMI > johnBMI);
+// Data 1
+var markHeight = 1.69;
+var markMass = 78;
+var markBMI = markMass / (markHeight ** 2);
+var johnHeight = 1.95;
+var johnMass = 92;
+var johnBMI = johnMass / (johnHeight ** 2);
+console.log(markBMI, johnBMI)
+markHigherBMI = (markBMI > johnBMI);
 console.log(markHigherBMI)
 
 // Data 2
@@ -20,6 +21,5 @@ johnHeight = 1.76;
 johnMass = 85;
 johnBMI = johnMass / (johnHeight ** 2);
 console.log(markBMI, johnBMI)
-
 markHigherBMI = (markBMI > johnBMI);
 console.log(markHigherBMI)
